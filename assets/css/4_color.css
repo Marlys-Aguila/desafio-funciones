@@ -1,0 +1,30 @@
+main {
+    height: 100vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.caja {
+    border: 2px solid #3d4ead;
+    width: 200px;
+    height: 200px;
+}
+
+.caja:nth-child(1) {
+    background-color: goldenrod;
+}
+
+.caja:nth-child(2) {
+    background-color: coral;
+}
+
+.caja:nth-child(3) {
+    background-color: lightgreen;
+}
+
+.caja:nth-child(4) {
+    background-color: skyblue;
+}
